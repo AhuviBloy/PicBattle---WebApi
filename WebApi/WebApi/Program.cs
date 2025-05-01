@@ -14,6 +14,7 @@ using web.Core.Services;
 using web.Data;
 using web.Data.Repositories;
 using web.Service;
+using System.Text.Json.Serialization;
 
 
 
@@ -62,6 +63,10 @@ builder.Services.AddScoped<ICreationRepository, CreationRepository>();
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+});
 
 builder.Services.AddAuthentication(options =>
 {

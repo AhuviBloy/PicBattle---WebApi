@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using web.Core.DTOs;
 using web.Core.models;
 using web.Core.Repositories;
 using static System.Net.Mime.MediaTypeNames;
@@ -64,13 +65,15 @@ namespace web.Data.Repositories
             return true;
         }
 
-        public async Task<Creation> GetWinCreationAsync(int challengeId)
+        public async Task<Creation?> GetWinCreationAsync(int challengeId)
         {
             return await _context.Creations
+                .Include(c => c.User)
                 .Where(c => c.ChallengeId == challengeId)
                 .OrderByDescending(c => c.Votes)
                 .FirstOrDefaultAsync();
         }
+
 
         public async Task<bool> UpdateChallengeAsync(int id, Challenge challenge)
         {
@@ -88,8 +91,6 @@ namespace web.Data.Repositories
             await _context.SaveChangesAsync();
             return true;
         }
-
-
 
     }
 
