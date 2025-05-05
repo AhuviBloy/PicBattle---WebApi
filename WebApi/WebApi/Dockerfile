@@ -11,10 +11,10 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["WebApi/Web.Api.csproj", "WebApi/"]
-COPY ["web.Core/web.Core.csproj", "web.Core/"]
-COPY ["web.Data/web.Data.csproj", "web.Data/"]
-COPY ["web.Service/web.Service.csproj", "web.Service/"]
+COPY ["WebApi/WebApi/Web.Api.csproj", "WebApi/"]
+COPY ["WebApi/web.Core/web.Core.csproj", "web.Core/"]
+COPY ["WebApi/web.Data/web.Data.csproj", "web.Data/"]
+COPY ["WebApi/web.Service/web.Service.csproj", "web.Service/"]
 RUN dotnet restore "./WebApi/Web.Api.csproj"
 COPY . .
 WORKDIR "/src/WebApi"
@@ -29,4 +29,4 @@ RUN dotnet publish "./Web.Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Web.Api.dll"]
+ENTRYPOINT ["dotnet", "Web.Api.dll"] 
