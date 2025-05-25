@@ -18,9 +18,12 @@ namespace web.Data
         public DbSet<Rating> Ratings { get; set; }
         public DbSet<WinCreation> WinCreations { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=PicBattle");
-        }
+        public DataContext(DbContextOptions<DataContext> options) : base(options) { }
+
+        //דאטה בייס מקומי
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=PicBattle");
+        //}
     }
 }

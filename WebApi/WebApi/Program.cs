@@ -15,11 +15,38 @@ using web.Data;
 using web.Data.Repositories;
 using web.Service;
 using System.Text.Json.Serialization;
+using Microsoft.EntityFrameworkCore;
+using System;
+using Microsoft.EntityFrameworkCore.Metadata;
+
+
 
 
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Configuration
+    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+    //.AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
+    .AddEnvironmentVariables(); // קריטי לענן
+
+
+Console.WriteLine("OpenAI Key = " + builder.Configuration["OpenAI:ApiKey"]);
+
+
+//מרחלי שחר חיבור לדאטה בייס
+//builder.Services.AddDbContext<DataContext>(options =>
+//options.UseMySql(Environment.GetEnvironmentVariable("DATABASE_CONECTION"),
+//new MySqlServerVersion(new Version(8, 0, 36))));
+
+
+
+builder.Services.AddDbContext<DataContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+        new MySqlServerVersion(new Version(8, 0, 36))));
+
 
 // Add services to the container.
 
@@ -146,7 +173,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthentication();
 
