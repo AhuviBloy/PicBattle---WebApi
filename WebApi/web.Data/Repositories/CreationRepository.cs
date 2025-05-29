@@ -96,6 +96,15 @@ namespace web.Data.Repositories
             return await _context.Creations.Where(c => c.ChallengeId == challengeId).Include(c => c.User).ToListAsync();
         }
 
+        public async Task<bool> UpdateDescriptionAsync(int id,string description)
+        {
+            var currentCreation = await GetCreationByIdAsync(id);
+            if (currentCreation == null)
+                return false;
+            currentCreation.Description = description;
+            await _context.SaveChangesAsync();
+            return true;
+        }
     }
 
 }

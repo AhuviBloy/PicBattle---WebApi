@@ -1,4 +1,4 @@
-using Amazon.S3;
+ï»¿using Amazon.S3;
 using Amazon;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -30,13 +30,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Configuration
     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
     //.AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
-    .AddEnvironmentVariables(); // ÷øéèé ìòğï
+    .AddEnvironmentVariables(); // ×§×¨×™×˜×™ ×œ×¢× ×Ÿ
 
 
 Console.WriteLine("OpenAI Key = " + builder.Configuration["OpenAI:ApiKey"]);
 
 
-//îøçìé ùçø çéáåø ìãàèä áééñ
+//××¨×—×œ×™ ×©×—×¨ ×—×™×‘×•×¨ ×œ×“××˜×” ×‘×™×™×¡
 //builder.Services.AddDbContext<DataContext>(options =>
 //options.UseMySql(Environment.GetEnvironmentVariable("DATABASE_CONECTION"),
 //new MySqlServerVersion(new Version(8, 0, 36))));
@@ -46,6 +46,19 @@ Console.WriteLine("OpenAI Key = " + builder.Configuration["OpenAI:ApiKey"]);
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
         new MySqlServerVersion(new Version(8, 0, 36))));
+
+
+//builder.Services.AddDbContext<DataContext>(options =>
+//    options.UseMySql(
+//        builder.Configuration.GetConnectionString("DefaultConnection"),
+//        new MySqlServerVersion(new Version(8, 0, 36)),
+//        mysqlOptions => {
+//            mysqlOptions.CharSetBehavior(Pomelo.EntityFrameworkCore.MySql.Infrastructure.CharSetBehavior.NeverAppend);
+//        }
+//    )
+//    .UseCharSet(Pomelo.EntityFrameworkCore.MySql.Infrastructure.CharSet.Utf8Mb4) // â† ×–×” ×”×—×œ×§ ×”×—×©×•×‘
+//);
+
 
 
 // Add services to the container.
@@ -117,7 +130,7 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-//÷ùåø ìSWAGGER ìJWT
+//×§×©×•×¨ ×œSWAGGER ×œJWT
 builder.Services.AddSwaggerGen(options =>
 {
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -146,7 +159,7 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 
-//äøùàåú
+//×”×¨×©××•×ª
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
@@ -164,7 +177,7 @@ var apiKey = builder.Configuration["OpenAI:ApiKey"];
 
 var app = builder.Build();
 
-app.UseCors("AllowAll"); // çééá ìäéåú ìôğé app.UseAuthorization()
+app.UseCors("AllowAll"); // ×—×™×™×‘ ×œ×”×™×•×ª ×œ×¤× ×™ app.UseAuthorization()
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

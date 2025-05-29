@@ -21,6 +21,8 @@ namespace web.Core.Service
         Task<string> GetCreatorNameAsync(int creationId);
         Task<string> GetCreationDescriptionAsync(int creationId);
         Task<List<CreationWithCreatorDTO>> GetAllCreationsWithCreatorAsync(int challengeId);
+        Task<bool> UpdateDescriptionAsync(int id, string description);
+
 
     }
 

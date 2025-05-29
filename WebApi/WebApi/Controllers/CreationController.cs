@@ -82,7 +82,7 @@ namespace Web.Api.Controllers
             return Ok(success);
         }
 
-       // PUT api/Creation/5
+        // PUT api/Creation/5
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateCreationAsync(int id, [FromBody] CreationPostDTO creation)
         {
@@ -137,14 +137,15 @@ namespace Web.Api.Controllers
             return Ok(creations);
         }
 
+
+        [HttpPatch("{id}/description")]
+        public async Task<IActionResult> UpdateCreationDescription(int id, [FromBody] UpdateDescriptionDto dto)
+        {
+            var success = await _creationService.UpdateDescriptionAsync(id, dto.Description);
+            if (!success)
+                return NotFound($"Creation with ID {id} not found.");
+
+            return Ok(new { message = "Description updated" });
+        }
     }
 }
-
-
-
-
-
-
-
-
-

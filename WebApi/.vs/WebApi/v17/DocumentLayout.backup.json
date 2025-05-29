@@ -3,52 +3,52 @@
   "WorkspaceRootPath": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Data\\Migrations\\20250525100736_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:web.Data\\Migrations\\20250525100736_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1219AD11-C5BB-4C98-94E2-54348D4EA4CA}|web.Data\\web.Data.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\web.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1219AD11-C5BB-4C98-94E2-54348D4EA4CA}|web.Data\\web.Data.csproj|solutionrelative:web.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\webapi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|solutionrelative:webapi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|solutionrelative:webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\webapi\\controllers\\creationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|solutionrelative:webapi\\controllers\\creationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PicBattle/True/SqlTable/dbo.Creations.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{ABA0A85F-BDD5-46FD-A467-DFCB0685D4FC}|web.Service\\web.Service.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\web.service\\creationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA0A85F-BDD5-46FD-A467-DFCB0685D4FC}|web.Service\\web.Service.csproj|solutionrelative:web.service\\creationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PicBattle/True/SqlTable/dbo.Ratings.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{E020527C-637F-45C8-B7ED-1657B5E3F6DA}|web.Core\\web.Core.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\web.core\\repositories\\icreationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E020527C-637F-45C8-B7ED-1657B5E3F6DA}|web.Core\\web.Core.csproj|solutionrelative:web.core\\repositories\\icreationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PicBattle/True/SqlTable/dbo.Challenges.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{1219AD11-C5BB-4C98-94E2-54348D4EA4CA}|web.Data\\web.Data.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\web.data\\repositories\\creationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1219AD11-C5BB-4C98-94E2-54348D4EA4CA}|web.Data\\web.Data.csproj|solutionrelative:web.data\\repositories\\creationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PicBattle/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{E020527C-637F-45C8-B7ED-1657B5E3F6DA}|web.Core\\web.Core.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\web.core\\services\\icreationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E020527C-637F-45C8-B7ED-1657B5E3F6DA}|web.Core\\web.Core.csproj|solutionrelative:web.core\\services\\icreationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E020527C-637F-45C8-B7ED-1657B5E3F6DA}|web.Core\\web.Core.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\web.core\\dtos\\updatedescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E020527C-637F-45C8-B7ED-1657B5E3F6DA}|web.Core\\web.Core.csproj|solutionrelative:web.core\\dtos\\updatedescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\webapi\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|solutionrelative:webapi\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\webapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|solutionrelative:webapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\webapi\\controllers\\challengecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BBF7F16-8EB3-46FC-8BEB-792C7B23A2B1}|WebApi\\Web.Api.csproj|solutionrelative:webapi\\controllers\\challengecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,154 +67,157 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250525100736_Initial.cs",
-              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Data\\Migrations\\20250525100736_Initial.cs",
-              "RelativeDocumentMoniker": "web.Data\\Migrations\\20250525100736_Initial.cs",
-              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Data\\Migrations\\20250525100736_Initial.cs*",
-              "RelativeToolTip": "web.Data\\Migrations\\20250525100736_Initial.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAABwAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAswCYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T10:07:36.576Z",
+              "WhenOpened": "2025-05-27T10:16:54.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "web.Data\\DataContext.cs",
-              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Data\\DataContext.cs",
-              "RelativeToolTip": "web.Data\\DataContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T09:17:56.886Z",
+              "WhenOpened": "2025-05-27T10:06:05.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Program.cs*",
-              "RelativeToolTip": "WebApi\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:53:06.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreationController.cs",
-              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\CreationController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\CreationController.cs",
-              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\CreationController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\CreationController.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAIwI8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T20:28:47.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
-              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\appsettings.json",
-              "RelativeToolTip": "WebApi\\appsettings.json",
-              "ViewState": "AgIAAAgAAAAAAAAAAABRwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-22T13:08:09.159Z",
+              "WhenOpened": "2025-05-26T21:41:34.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.Production.json",
-              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\appsettings.Production.json",
-              "RelativeDocumentMoniker": "WebApi\\appsettings.Production.json",
-              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\appsettings.Production.json",
-              "RelativeToolTip": "WebApi\\appsettings.Production.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-25T09:16:28.698Z",
+              "Title": "CreationService.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Service\\CreationService.cs",
+              "RelativeDocumentMoniker": "web.Service\\CreationService.cs",
+              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Service\\CreationService.cs",
+              "RelativeToolTip": "web.Service\\CreationService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAIwGUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T21:10:24.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dbo.Creations.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PicBattle/True/SqlTable/dbo.Creations.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PicBattle/True/SqlTable/dbo.Creations.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-22T13:29:46.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\ChatController.cs",
-              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\ChatController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAAEcBAAAAAAAAAAAYwCMBAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CreationController.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\CreationController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\CreationController.cs",
+              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\CreationController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\CreationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:05:49.446Z",
+              "WhenOpened": "2025-05-26T12:47:57.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "WebApi\\appsettings.Development.json",
-              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\appsettings.Development.json",
-              "RelativeToolTip": "WebApi\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-22T13:08:00.202Z",
+              "Title": "ICreationRepository.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Core\\Repositories\\ICreationRepository.cs",
+              "RelativeDocumentMoniker": "web.Core\\Repositories\\ICreationRepository.cs",
+              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Core\\Repositories\\ICreationRepository.cs",
+              "RelativeToolTip": "web.Core\\Repositories\\ICreationRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T21:08:16.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreationRepository.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Data\\Repositories\\CreationRepository.cs",
+              "RelativeDocumentMoniker": "web.Data\\Repositories\\CreationRepository.cs",
+              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Data\\Repositories\\CreationRepository.cs",
+              "RelativeToolTip": "web.Data\\Repositories\\CreationRepository.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwGoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T21:01:58.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICreationService.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Core\\Services\\ICreationService.cs",
+              "RelativeDocumentMoniker": "web.Core\\Services\\ICreationService.cs",
+              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Core\\Services\\ICreationService.cs",
+              "RelativeToolTip": "web.Core\\Services\\ICreationService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T21:07:21.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateDescriptionDto.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Core\\DTOs\\UpdateDescriptionDto.cs",
+              "RelativeDocumentMoniker": "web.Core\\DTOs\\UpdateDescriptionDto.cs",
+              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Core\\DTOs\\UpdateDescriptionDto.cs",
+              "RelativeToolTip": "web.Core\\DTOs\\UpdateDescriptionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T21:14:27.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "dbo.Challenges.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PicBattle/True/SqlTable/dbo.Challenges.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PicBattle/True/SqlTable/dbo.Challenges.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-22T15:00:38.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "dbo.Ratings.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PicBattle/True/SqlTable/dbo.Ratings.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PicBattle/True/SqlTable/dbo.Ratings.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-22T19:16:26.452Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T20:26:20.399Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "dbo.Users.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PicBattle/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/PicBattle/True/SqlTable/dbo.Users.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-22T19:24:24.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "AiController.cs",
               "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\AiController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\AiController.cs",
               "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\AiController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\AiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:05:45.514Z",
+              "WhenOpened": "2025-05-26T20:38:41.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChallengeController.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\ChallengeController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ChallengeController.cs",
+              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\WebApi\\Controllers\\ChallengeController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ChallengeController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAowHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T12:47:30.534Z",
               "EditorCaption": ""
             }
           ]

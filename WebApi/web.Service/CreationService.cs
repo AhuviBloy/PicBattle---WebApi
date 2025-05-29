@@ -82,7 +82,7 @@ namespace web.Service
         }
         public async Task<List<CreationWithCreatorDTO>> GetAllCreationsWithCreatorAsync(int challengeId)
         {
-            var creations = await _creationRepository.GetAllCreationsWithUserAsync(challengeId); 
+            var creations = await _creationRepository.GetAllCreationsWithUserAsync(challengeId);
             return creations.Select(c => new CreationWithCreatorDTO
             {
                 Id = c.Id,
@@ -90,12 +90,18 @@ namespace web.Service
                 FileType = c.FileType,
                 UserId = c.UserId,
                 ChallengeId = c.ChallengeId,
-                ImageUrl=c.ImageUrl,
-                Description=c.Description,
-                Votes=c.Votes,
+                ImageUrl = c.ImageUrl,
+                Description = c.Description,
+                Votes = c.Votes,
                 CreatorName = c.User?.Name ?? "אנונימי"
             }).ToList();
         }
+
+        public async Task<bool> UpdateDescriptionAsync(int id, string description)
+        {
+            return await _creationRepository.UpdateDescriptionAsync(id, description);
+        }
+
 
     }
 

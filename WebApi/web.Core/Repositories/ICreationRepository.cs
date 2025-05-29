@@ -19,6 +19,8 @@ namespace web.Core.Repositories
         Task<bool> DeleteCreationAsync(int id);
         Task<Creation> GetCreationWithUserAsync(int creationId);
         Task<List<Creation>> GetAllCreationsWithUserAsync(int challengeId);
+        Task<bool> UpdateDescriptionAsync(int id, string description);
+
     }
 
     //public interface ICreationRepository
