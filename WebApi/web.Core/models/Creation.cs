@@ -15,12 +15,14 @@ namespace web.Core.models
         public string FileName { get; set; } 
         public string FileType { get; set; } 
         public int UserId { get; set; } 
-        public int ChallengeId { get; set; } 
+        public int ChallengeId { get; set; }
+        public Challenge Challenge { get; set; }
+
         public string ImageUrl { get; set; }
         public string Description { get; set; }
         public int Votes { get; set; } = 0;
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        //public bool IsActive { get; set; } = false;
-       
+        public bool IsActive { get; set; } = true;
+
     }
 }

@@ -6,7 +6,7 @@ namespace web.Core.Services
     public interface IAuthService
     {
         Task<string> RegisterAsync(UserRegisterDTO userDto); 
-        Task<string> LoginAsync(UserLoginDTO userDto);
+        Task<string?> LoginAsync(UserLoginDTO userDto);
 
     }
 }

@@ -21,11 +21,11 @@ public class AiController : ControllerBase
     public async Task<IActionResult> Review([FromBody] AiReviewRequest request)
     {
         Console.WriteLine("התקבלה בקשה");
-        Console.WriteLine(request.ChallengeDescription);
+        Console.WriteLine(request.challengeDescription);
 
-        var prompt = $"אתגר בנושא: {request.ChallengeDescription}\n" +
-                     $"תיאור היצירה: {request.CreationDescription}\n" +
-                     $"אתה מבקר אומנות AI.ואל תכנס לענינים רוחניים בכלל אתה צריך לתת חוות דעת עד כמה היצירה מתאימה לנושא האתגר אל תזכיר רוחניות בתשובה!!! תן חוות דעת עניינית ותמציתית  עם קצת הומור על היצירה לפי התיאור והנושא. אל תכלול המלצות, רעיונות לשיפור, או הערות נוספות.\r\n.\r\n";
+        var prompt = $"אתגר בנושא: {request.challengeDescription}\n" +
+                     $"תיאור היצירה: {request.creationDescription}\n" +
+                     $"אתה מבקר אומנות AI.ואל תכנס לענינים רוחניים בכלל אתה צריך לתת חוות דעת ותן גם ציון עד כמה זה קשור לנושא האתגר עד כמה היצירה מתאימה לנושא האתגר אל תזכיר רוחניות בתשובה!!! תן חוות דעת עניינית ותמציתית  עם קצת הומור על היצירה לפי התיאור והנושא. אל תכלול המלצות, רעיונות לשיפור, או הערות נוספות.\r\n.\r\n";
 
         var client = _httpClientFactory.CreateClient();
         var openAiKey = _config["OpenAI:ApiKey"];
@@ -46,7 +46,11 @@ public class AiController : ControllerBase
 
         var response = await client.SendAsync(httpRequest);
         if (!response.IsSuccessStatusCode)
+        {
+            var errorText = await response.Content.ReadAsStringAsync();
+            Console.WriteLine($"שגיאה מה-AI: {response.StatusCode} - {errorText}");
             return BadRequest("שגיאה מה-AI");
+        }
 
         var jsonResponse = await response.Content.ReadAsStringAsync();
         using var doc = JsonDocument.Parse(jsonResponse);
@@ -62,8 +66,8 @@ public class AiController : ControllerBase
 
 public class AiReviewRequest
 {
-    public string ChallengeDescription { get; set; }
-    public string CreationDescription { get; set; }
+    public string challengeDescription { get; set; }
+    public string creationDescription { get; set; }
 }
 
 

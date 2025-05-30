@@ -16,7 +16,7 @@ namespace web.Core.models
         public DateTime StartDate { get; set; } 
         public DateTime EndDate { get; set; } 
         public int CountCreations { get; set; } = 0;
-        //public bool IsActive { get; set; } = false;
+        public bool IsActive { get; set; } = false;
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public List<Creation> ChallengeCreationList { get; set; } = new List<Creation>();
 

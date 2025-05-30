@@ -21,7 +21,7 @@ namespace web.Core.models
         public string PasswordHash { get; set; } 
         public ERole Role { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public bool IsActive { get; set; } = false;
+        public bool IsActive { get; set; } = true;
         public List<Creation> UserCreationList { get; set; } = new List<Creation>();
 
     }

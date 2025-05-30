@@ -35,15 +35,22 @@ public class AuthService : IAuthService
         return GenerateToken(user); // מחזירים את הטוקן
     }
 
-    public async Task<string> LoginAsync(UserLoginDTO userDto)
+    public async Task<string?> LoginAsync(UserLoginDTO userDto)
     {
         var user = await _authRepository.LoginAsync(userDto.Email, userDto.Password);
         if (user == null)
         {
-            return null; // אם המשתמש לא נמצא, מחזירים null
+            return null;
         }
 
-        return GenerateToken(user); // מחזירים טוקן
+        string hashedInputPassword = HashPassword(userDto.Password);
+
+        if(user.PasswordHash != hashedInputPassword)
+        {
+            return null;
+        }
+
+        return GenerateToken(user);
     }
 
     private string HashPassword(string password)

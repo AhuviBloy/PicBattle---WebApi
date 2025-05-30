@@ -22,17 +22,18 @@ namespace web.Data.Repositories
 
         public async Task<List<Creation>> GetAllCreationAsync()
         {
-            return await _context.Creations.ToListAsync();
+            return await _context.Creations.Where(c=>c.IsActive).ToListAsync();
         }
 
         public async Task<IEnumerable<Creation>> GetCreationsByChallengeAsync(int challengeId)
         {
-            return await _context.Creations.Where(c => c.ChallengeId == challengeId).ToListAsync();
+            return await _context.Creations.Where(c => c.ChallengeId == challengeId && c.IsActive).ToListAsync();
         }
 
         public async Task<Creation> GetCreationByIdAsync(int id)
         {
-            return await _context.Creations.FindAsync(id);
+            var creation = await _context.Creations.Where(c => c.Id == id && c.IsActive).FirstOrDefaultAsync(); ;
+            return creation;
         }
 
         public async Task<bool> CreateCreationAsync(Creation creation)
@@ -73,17 +74,44 @@ namespace web.Data.Repositories
             await _context.SaveChangesAsync();
             return true;
         }
+        //public async Task<bool> DeleteCreationAsync(int id)
+        //{
+        //    var creation = await _context.Creations.FindAsync(id);
+        //    if (creation == null) return false;
+
+        //    //_context.Creations.Remove(creation);
+        //    await _context.SaveChangesAsync();
+        //    return true;
+        //}
+
+
+
         public async Task<bool> DeleteCreationAsync(int id)
         {
-            var creation = await _context.Creations.FindAsync(id);
+            var creation = await _context.Creations
+                .Include(c => c.Challenge)
+                .FirstOrDefaultAsync(c => c.Id == id);
+
             if (creation == null) return false;
 
-            _context.Creations.Remove(creation);
+            // מחיקה רכה
+            creation.IsActive = false;
+
+            // עדכון מספר יצירות פעילות באתגר
+            if (creation.Challenge != null)
+            {
+                var activeCreationsCount = await _context.Creations
+                    .CountAsync(c => c.ChallengeId == creation.ChallengeId && c.IsActive);
+
+                creation.Challenge.CountCreations = activeCreationsCount;
+            }
+
             await _context.SaveChangesAsync();
             return true;
         }
 
-        //no need
+
+
         public async Task<Creation> GetCreationWithUserAsync(int creationId)
         {
             return await _context.Creations
@@ -93,7 +121,7 @@ namespace web.Data.Repositories
 
         public async Task<List<Creation>> GetAllCreationsWithUserAsync(int challengeId)
         {
-            return await _context.Creations.Where(c => c.ChallengeId == challengeId).Include(c => c.User).ToListAsync();
+            return await _context.Creations.Where(c => c.ChallengeId == challengeId && c.IsActive).Include(c => c.User).ToListAsync();
         }
 
         public async Task<bool> UpdateDescriptionAsync(int id,string description)
