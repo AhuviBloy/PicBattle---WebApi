@@ -23,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{E020527C-637F-45C8-B7ED-1657B5E3F6DA}|web.Core\\web.Core.csproj|solutionrelative:web.core\\repositories\\icreationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Data\\Migrations\\20250530013544_fix-delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:web.Data\\Migrations\\20250530013544_fix-delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E020527C-637F-45C8-B7ED-1657B5E3F6DA}|web.Core\\web.Core.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\web.core\\models\\challenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E020527C-637F-45C8-B7ED-1657B5E3F6DA}|web.Core\\web.Core.csproj|solutionrelative:web.core\\models\\challenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,6 +37,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E020527C-637F-45C8-B7ED-1657B5E3F6DA}|web.Core\\web.Core.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\web.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E020527C-637F-45C8-B7ED-1657B5E3F6DA}|web.Core\\web.Core.csproj|solutionrelative:web.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1219AD11-C5BB-4C98-94E2-54348D4EA4CA}|web.Data\\web.Data.csproj|d:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\practicum\\picbattle---webapi\\webapi\\web.data\\migrations\\20250530013544_fix-delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1219AD11-C5BB-4C98-94E2-54348D4EA4CA}|web.Data\\web.Data.csproj|solutionrelative:web.data\\migrations\\20250530013544_fix-delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,8 +66,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\CreationController.cs",
               "ViewState": "AgIAAHUAAAAAAAAAAAAIwIUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T02:28:43.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T02:28:43.988Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "web.Core\\Repositories\\ICreationRepository.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:22:39.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T01:22:39.54Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "web.Service\\CreationService.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAawFQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:33:34.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T01:33:34.166Z"
             },
             {
               "$type": "Document",
@@ -105,8 +102,7 @@
               "RelativeToolTip": "web.Data\\Repositories\\CreationRepository.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAhwHsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:02:47.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T01:02:47.721Z"
             },
             {
               "$type": "Document",
@@ -114,16 +110,16 @@
               "Title": "Creation.cs",
               "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Core\\models\\Creation.cs",
               "RelativeDocumentMoniker": "web.Core\\models\\Creation.cs",
-              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Core\\models\\Creation.cs*",
-              "RelativeToolTip": "web.Core\\models\\Creation.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAxAAAAAAAAAA==",
+              "ToolTip": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Core\\models\\Creation.cs",
+              "RelativeToolTip": "web.Core\\models\\Creation.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T01:09:44.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "20250530013544_fix-delete.cs",
               "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Data\\Migrations\\20250530013544_fix-delete.cs",
               "RelativeDocumentMoniker": "web.Data\\Migrations\\20250530013544_fix-delete.cs",
@@ -131,12 +127,11 @@
               "RelativeToolTip": "web.Data\\Migrations\\20250530013544_fix-delete.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:35:44.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T01:35:44.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Core\\models\\User.cs",
               "RelativeDocumentMoniker": "web.Core\\models\\User.cs",
@@ -144,12 +139,11 @@
               "RelativeToolTip": "web.Core\\models\\User.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:19:07.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T01:19:07.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "S3Service.cs",
               "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Service\\S3Service.cs",
               "RelativeDocumentMoniker": "web.Service\\S3Service.cs",
@@ -157,12 +151,11 @@
               "RelativeToolTip": "web.Service\\S3Service.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwBMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:33:19.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T01:33:19.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Data\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "web.Data\\Repositories\\UserRepository.cs",
@@ -170,12 +163,11 @@
               "RelativeToolTip": "web.Data\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwBkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:17:38.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T01:17:38.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Challenge.cs",
               "DocumentMoniker": "D:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05D5 \u05E1\u05DE\u05D9\u05E0\u05E8\\Practicum\\PicBattle---WebApi\\WebApi\\web.Core\\models\\Challenge.cs",
               "RelativeDocumentMoniker": "web.Core\\models\\Challenge.cs",
@@ -183,8 +175,7 @@
               "RelativeToolTip": "web.Core\\models\\Challenge.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAUwA4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T01:09:54.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T01:09:54.585Z"
             }
           ]
         }
